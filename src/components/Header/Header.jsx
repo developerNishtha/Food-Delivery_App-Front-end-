@@ -42,6 +42,7 @@ const Header = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
+      console.log("het is maha pagal");
       if (
         document.body.scrollTop > 80 ||
         document.documentElement.scrollTop > 80
